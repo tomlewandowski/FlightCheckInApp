@@ -15,9 +15,9 @@ public static class FlightEndpoints
             {
                 var cmd = new CheckInPassengerCommand(flightId, passengerId);
                 await mediator.Send(cmd, ct);
-                return Results.Created($"{ApiBase}/{flightId}/checkin/{passengerId}", null);
+                return Results.NoContent();
             })
-            .Produces(StatusCodes.Status201Created)
+            .Produces(StatusCodes.Status204NoContent)
             .ProducesProblem(StatusCodes.Status404NotFound)
             .ProducesProblem(StatusCodes.Status409Conflict)
             .ProducesProblem(StatusCodes.Status422UnprocessableEntity)

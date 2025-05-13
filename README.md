@@ -47,7 +47,7 @@ dotnet test --project FlightCheckIn.Tests/FlightCheckIn.Tests.csproj
 
 Responses:
 
-- **201 Created**
+- **204 No Content**
   - Location header: `/api/flights/{flightId}/checkin/{passengerId}`
 - **404 Not Found**
   - Flight or passenger not found.
