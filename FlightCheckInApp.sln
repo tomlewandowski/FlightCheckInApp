@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightCheckIn", "FlightCheckIn\FlightCheckIn.csproj", "{B5890670-6A50-477B-AF83-56CB2B625B7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightCheckIn.Tests", "FlightCheckIn.Tests\FlightCheckIn.Tests.csproj", "{BDB9BD91-457E-44E6-A085-68EECC706218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5890670-6A50-477B-AF83-56CB2B625B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5890670-6A50-477B-AF83-56CB2B625B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5890670-6A50-477B-AF83-56CB2B625B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5890670-6A50-477B-AF83-56CB2B625B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB9BD91-457E-44E6-A085-68EECC706218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB9BD91-457E-44E6-A085-68EECC706218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB9BD91-457E-44E6-A085-68EECC706218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB9BD91-457E-44E6-A085-68EECC706218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
